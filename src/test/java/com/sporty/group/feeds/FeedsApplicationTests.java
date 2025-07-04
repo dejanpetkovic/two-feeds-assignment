@@ -1,10 +1,10 @@
-package com.sporty.group.two_feeds;
+package com.sporty.group.feeds;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TwoFeedsApplicationTests {
+class FeedsApplicationTests {
 
 	@Test
 	void contextLoads() {
