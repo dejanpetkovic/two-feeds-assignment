@@ -36,11 +36,11 @@ public enum AlphaValues {
 			throw new IllegalArgumentException("Key cannot be null");
 		}
 
-		if (key.equals(BetaOdds.HOME.getCode())) {
+		if (key.equals(AlphaValues.HOME.getCode())) {
 			return NormalizedOdds.ONE.getCode();
-		} else if (key.equals(BetaOdds.DRAW.getCode())) {
+		} else if (key.equals(AlphaValues.DRAW.getCode())) {
 			return NormalizedOdds.X.getCode();
-		} else if (key.equals(BetaOdds.AWAY.getCode())) {
+		} else if (key.equals(AlphaValues.AWAY.getCode())) {
 			return NormalizedOdds.TWO.getCode();
 		} else {
 			throw new IllegalArgumentException("Unknown odds key: " + key);

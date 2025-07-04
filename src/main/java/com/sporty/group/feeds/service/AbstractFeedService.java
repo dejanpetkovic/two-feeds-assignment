@@ -25,7 +25,7 @@ public abstract class AbstractFeedService<T> {
 
 		process(message);
 
-		logger.info("message {} succesfully processed", message);
+		logger.info("Message {} succesfully processed", message);
 
 		return ResponseEntity.ok().build();
 	}
