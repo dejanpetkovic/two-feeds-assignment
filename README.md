@@ -29,8 +29,8 @@ Place your `application.properties`  inside `config` folder to override the defa
 2. Navigate to the project directory.
 3. Run the following commands:
 
-mvn clean install
-mvn spring-boot:run
+`mvn clean install`  
+`mvn spring-boot:run`
 
 Or if you want to run the JAR:
 java -jar target\feeds-1.0.0.jar
