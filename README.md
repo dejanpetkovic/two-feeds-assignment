@@ -13,7 +13,7 @@ It validates requests, converts them into standard messages, and queues them in 
 
 ## Configuration
 
-'application.properties'
+`application.properties`
 
 Application listens on port 9000 by default, property:
 server.port=9000
