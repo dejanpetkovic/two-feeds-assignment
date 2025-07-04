@@ -37,10 +37,13 @@ java -jar target\feeds-1.0.0.jar
 
 ## How to use API?
 
-For Alpha provider, send POST to /provider-alpha/feed with request:
+### Alpha Provider
 
-// ODDS_CHANGE
+Send a POST request to `/provider-alpha/feed` with request:
 
+#### Odds change
+
+```json
 {
 	"msg_type": "odds_update",
 	"event_id": "event12345",
@@ -51,16 +54,22 @@ For Alpha provider, send POST to /provider-alpha/feed with request:
 	}
 }
 
-// BET_SETTLEMENT
+#### Bet settlement
+
+```json
 {
 	"msg_type": "settlement",
 	"event_id": "event12345",
 	"outcome": "1"
 }
 
-For Beta provider, send POST to /provider-beta/feed with request like:
+### Beta Provider
 
-// ODDS_CHANGE
+Send a POST request to `/provider-beta/feed` with request:
+
+#### Odds change
+
+```json
 {
 	"type": "ODDS",
 	"event_id": "event54321",
@@ -71,7 +80,9 @@ For Beta provider, send POST to /provider-beta/feed with request like:
 	}
 }
 
-// BET_SETTLEMENT
+#### Bet settlement
+
+```json
 {
 	"type": "SETTLEMENT",
 	"event_id": "event54321",
