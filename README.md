@@ -53,6 +53,7 @@ Send a POST request to `/provider-alpha/feed` with request:
 	"2": 4.5
 	}
 }
+```
 
 #### Bet settlement
 
@@ -62,6 +63,7 @@ Send a POST request to `/provider-alpha/feed` with request:
 	"event_id": "event12345",
 	"outcome": "1"
 }
+```
 
 ### Beta Provider
 
@@ -79,6 +81,7 @@ Send a POST request to `/provider-beta/feed` with request:
 	"away": 4.0
 	}
 }
+```
 
 #### Bet settlement
 
@@ -88,3 +91,4 @@ Send a POST request to `/provider-beta/feed` with request:
 	"event_id": "event54321",
 	"result": "draw"
 }
+```
